@@ -18,5 +18,10 @@ export default {
       title: "Introduction Text",
       type: "localePortableText",
     },
+    {
+      name: "link",
+      title: "Link to the about page:",
+      type: "link",
+    },
   ],
 };

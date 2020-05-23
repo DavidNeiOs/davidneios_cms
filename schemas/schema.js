@@ -5,6 +5,7 @@ import schemaTypes from "all:part:@sanity/base/schema-type";
 import localeString from "./building-blocks/locale-string";
 import localePortableText from "./building-blocks/locale-portable-text";
 import picture from "./building-blocks/picture";
+import link from "./building-blocks/local-link";
 
 // PAGES
 import HomePage from "./home-page";
@@ -20,6 +21,7 @@ export default createSchema({
     localeString,
     localePortableText,
     picture,
+    link,
     HomePage,
     IntroHomePage,
   ]),
