@@ -17,8 +17,7 @@ export default {
     {
       title: 'Skill Set',
       name: 'skillSet',
-      type: 'array',
-      of: [{type: 'string'}],
+      type: 'string',
       options: {
         list: [
           {title: 'Front-end', value: 'frontend'},
@@ -28,7 +27,7 @@ export default {
           {title: 'Source control', value: 'sourceControl'}
         ]
       },
-      validation: Rule => [Rule.min(1), Rule.max(1)]
+      validation: Rule => Rule.required()
     }
   ],
 };

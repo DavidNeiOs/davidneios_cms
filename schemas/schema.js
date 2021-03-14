@@ -12,6 +12,7 @@ import HomePage from './home-page';
 import IntroHomePage from './home-page/introduction';
 import Typist from './home-page/typist';
 import ProjectSection from "./home-page/projects-section"
+import AboutPage from './about-page'
 
 // DOCS
 import Skills from './building-blocks/skills';
@@ -36,6 +37,7 @@ export default createSchema({
     Typist,
     Skills,
     Project,
-    Experience
+    Experience,
+    AboutPage
   ]),
 });
