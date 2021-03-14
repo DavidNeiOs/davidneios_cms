@@ -21,5 +21,11 @@ export default {
       type: 'localePortableText',
       options: { collapsible: true },
     },
+    {
+      name: 'projectSection',
+      title: 'Projects',
+      type: 'projectSection',
+      options: { collapsible: true}
+    }
   ],
 };

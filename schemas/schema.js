@@ -7,10 +7,17 @@ import localePortableText from './building-blocks/locale-portable-text';
 import picture from './building-blocks/picture';
 import link from './building-blocks/local-link';
 
-// PAGES
+// HOME PAGE
 import HomePage from './home-page';
 import IntroHomePage from './home-page/introduction';
 import Typist from './home-page/typist';
+import ProjectSection from "./home-page/projects-section"
+
+// DOCS
+import Skills from './building-blocks/skills';
+import Project from './building-blocks/project';
+import Experience from './building-blocks/experience'
+
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
@@ -23,8 +30,12 @@ export default createSchema({
     localePortableText,
     picture,
     link,
+    ProjectSection,
     HomePage,
     IntroHomePage,
     Typist,
+    Skills,
+    Project,
+    Experience
   ]),
 });
